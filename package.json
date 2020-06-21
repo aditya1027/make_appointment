@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
-	"frontend":" npm start --prefix frontend",
-	"dev":"concurrently \"npm run server\" \"npm run frontend\"",
-	"heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "frontend": " npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Aditya Kumar",
   "license": "MIT",
@@ -20,6 +20,9 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.19",
     "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "12.x"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
