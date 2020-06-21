@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://navigus:navigus123@devconnector-cbfy0.mongodb.net/Navigus?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
+}
